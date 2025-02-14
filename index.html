@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacia La Morenita</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <style>
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        
+        .video-container video {
+            width: 100%;
+            height: auto;
+            max-height: 450px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Farmacia La Morenita</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="productos.html">Productos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio" class="banner">
+        <h2>Sobre Nosotros</h2>
+        <p>La idea de Farmacia La Morenita nació en mayo de 2023 en Villa Jerusalén, cuando Paul Zamora y Breeyet Zeledón vieron la necesidad de un lugar cercano donde conseguir medicinas. Ese mismo año, la farmacia fue constituida ante los órganos de la DGI y la alcaldía.</p>
+        <div class="video-container">
+            <video controls>
+                <source src="historia.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+        </div>
+    </section>
+
+    <script>
+        (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="Frgc3P9Vr0cm1Gtukwsde";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+        </script>
+    
+    <footer>
+        <p>&copy; 2025 Farmacia La Morenita. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
